@@ -8,5 +8,5 @@ ___
 
 | # | Source | Solution | Difficulty |
 |:---:|:---:|:---:|:---:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Link](https://leetcode.com/problems/cracking-the-safe/) | Easy |
-| 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/) | [Link](#1) | Easy |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Link](%231) | Easy |
+| 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/) | [Link](/%23657) | Easy |
