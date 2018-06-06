@@ -10,3 +10,4 @@ ___
 |:---:|:---:|:---:|:---:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Link](%231) | Easy |
 | 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/) | [Link](/%23657) | Easy |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) | [Link](/%23771) | Easy |
