@@ -14,5 +14,6 @@ Given an array of integers, return indices of the two numbers such that they add
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 ### 翻譯 
+#### Question
 有一個裡面元素為int的的array, 回傳兩個數字的index, 而這兩個數字相加必須等於target.  
 假設每個輸入只有一組解, 且不能回傳同個數字兩次
