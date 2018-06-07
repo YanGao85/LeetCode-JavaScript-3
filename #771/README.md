@@ -20,6 +20,7 @@ The letters in J are guaranteed distinct, and all characters in J and S are lett
 Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
 ### 翻譯 
+#### Question 
 有一字串 J 代表寶石的種類, 字串 S 代表你擁有的石頭.  
 字串 S 的每一個字元都代表著你有的一個那種石頭.  
 你想要知道你的石頭裡有幾個是寶石.  
