@@ -6,7 +6,7 @@
 var numJewelsInStones = function(J, S) {
 
 	/* 依據 J(types of stones that are jewels) 建立一個新的 Set */
-	const jewels = new Set([...J]); // Set(2) {"a", "A"}
+	const setJ = new Set([...J]); // Set(2) {"a", "A"}
 
 	/* 依據 S(the stones you have) 建立一個新的 Array */
 	const arrayS = S.split(''); // (7) ["a", "A", "A", "b", "b", "b", "b"]
@@ -21,7 +21,7 @@ var numJewelsInStones = function(J, S) {
        使用 Set 的 has(value), 判斷該值是否為Set的成員 */
 	const count = arrayS.reduce(
 		(accumulator, currentValue, currentIndex, array) => {
-			return accumulator + jewels.has(currentValue);
+			return accumulator + setJ.has(currentValue);
 		},
 		0 // 傳入reduce accumulator 的初始化值為 0
 	);
