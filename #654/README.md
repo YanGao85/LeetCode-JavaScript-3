@@ -28,18 +28,206 @@ Output: return the tree root node representing the following tree:
   
 ### 翻譯
 #### Question
-在二維振列的網格中, 每一個 grid[i][j] 代表著一個在那裏的建築物的高度.  
-我們允許增加任意數量欲增加高度的建築物, 任意的建築物增高量(數量會因為建築物而不同).  
-高度 0 也被認為是一棟建築物.  
-
-最後, 從 grid 的四個方向所看到的天際線, 即上下左右, 其必須與原本的 grid 的天際線相同.
-一個城市的天際線是從遠處看過去時, 所有建築物所組成的矩形外部輪廓.  
-看下面例子.  
+給定一個不重複的整數陣列, 一個以此陣列建立的最大二元樹的定義如下:  
+   
+  1. 根節點為其陣列中的最大值  
+  2. 左子樹是得出的最大值的左邊範圍所建構出的最大二元樹  
+  3. 右子樹是得出的最大值的右邊範圍所建構出的最大二元樹  
   
-請問每棟建築物可以增加的最大量的總和是?
-
-
+使用給定的陣列建構出最大二元樹, 並輸出該樹的根節點
 #### Note 
- - grid 是二維陣列, 因此 grid 的長度和 grid[0] 的長度相等, 且範圍為 1 ~ 50 之間.  
- - 因此每一個值 grid[i][j] 的範圍在 0 ~ 100 之間.  
- - 每個在 grid[i][j] 的建築物都占據了整個網格單元, 也就是說每個建築物是的 1 x 1 x grid[i][j] 的直角角柱體.  
+ - 給定陣列的長度範圍為 1 ~ 1000 . 
+
+### 備註
+#### 程式怎麼跑 不記起來會忘記
+ 1. 建立抓最大值的 function
+ 2. 建立產生最大二元樹的 function
+ 3. 對其執行遞迴
+
+```javascript
+[0] root
+arrayTarget = [3,2,1,6,0,5]
+begin = 0
+end = 5
+indexMax = 3
+root.val = nums[3] = 6
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 0, 2)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 4, 5)
+
+      6
+
+//////////////////////////////////////////
+[1] left
+arrayTarget = [3,2,1]
+begin = 0
+end = 2
+indexMax = 0
+root.val = nums[0] = 3
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 0, -1)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 1, 2)
+
+      6
+    /   
+   3     
+
+//////////////////////////////////////////
+[2] right
+arrayTarget = [0,5]
+begin = 4
+end = 5
+indexMax = 5
+root.val = nums[5] = 5
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 4, 4)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 6, 5)
+
+      6
+    /   \
+   3     5
+
+//////////////////////////////////////////
+[3] left left
+begin = 0
+end = -1
+begin > end 
+return null
+
+          6
+        /   \
+      3       5
+    /  
+ null
+
+//////////////////////////////////////////
+[4] left righ
+arrayTarget = [2,1]
+begin = 1
+end = 2
+indexMax = 1
+root.val = nums[1] = 2
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 1, 0)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 2, 2)
+
+          6
+        /   \
+      3       5
+    /   \
+ null    2
+
+//////////////////////////////////////////
+[5] righ left 
+arrayTarget = [0]
+begin = 4
+end = 4
+indexMax = 4
+root.val = nums[4] = 0
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 4, 3)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 5, 4)
+
+          6
+        /    \
+      3        5
+    /   \     /
+ null    2   0
+
+//////////////////////////////////////////
+[6] righ right 
+begin = 6
+end = 5
+begin > end 
+return null
+
+          6
+        /    \
+      3        5
+    /   \     / \
+ null    2   0   null
+
+//////////////////////////////////////////
+[x] left left left 
+
+left left = null
+
+//////////////////////////////////////////
+[x] left left right 
+
+left left = null
+
+//////////////////////////////////////////
+[7] left right left 
+begin = 1
+end = 0
+begin > end 
+return null
+
+
+               6
+            /     \
+          3        5
+        /   \     /  \
+     null    2   0   null
+           / 
+         null
+
+//////////////////////////////////////////
+[8] left right right 
+arrayTarget = [1]
+begin = 2
+end = 2
+indexMax = 2
+root.val = nums[2] = 1
+root.left = new root(nums, begin, indexMax-1) = new root(nums, 2, 1)
+root.right = new root(nums, indexMax+1, end) = new root(nums, 3, 2)
+
+
+               6
+            /     \
+          3        5
+        /   \     /  \
+     null    2   0   null
+           /   \
+         null   1
+
+//////////////////////////////////////////
+[9] right left left 
+begin = 4
+end = 3
+begin > end 
+return null
+
+
+                   6
+            /            \
+          3               5
+        /   \            /  \
+     null    2          0   null
+           /   \      /
+         null   1   null
+
+//////////////////////////////////////////
+[10] right left right 
+begin = 5
+end = 4
+begin > end 
+return null
+
+
+                   6
+            /            \
+          3               5
+        /   \            /  \
+     null    2          0   null
+           /   \      /   \
+         null   1   null  null
+
+//////////////////////////////////////////
+[x]  right right left 
+
+right right = null
+
+//////////////////////////////////////////
+[x]  right right right 
+
+right right = null
+
+```
+
