@@ -35,13 +35,15 @@ The above arrows point to positions where the corresponding bits are different.
  1. 用 互斥或閘(XOR) 算出兩數的差異數的十進位值
  2. 用 while(){} 算出該數的二進位制有幾個 1 
 
-```javascript
+```
 5 ^ 10 = 15
+
  5   (0 1 0 1)
 10   (1 0 1 0)
       ↑ ↑ ↑ ↑
 --------------
 15   (1 1 1 1)
+
 
 =================
 1. 
