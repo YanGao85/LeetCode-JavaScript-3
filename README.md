@@ -6,15 +6,16 @@
 ___
 ## Problems
 
-| #     | Source                                                                 | Solution        | Difficulty ||
-| :---: | :--------------------------------------------------------------------: | :-------------: | :--------: |:--------:|
-| 1     | [Two Sum][Two Sum]                                                     | [Link](%231)    | Easy       ||
-| 657   | [Judge Route Circle][Judge Route Circle]                               | [Link](/%23657) | Easy       ||
-| 771   | [Jewels and Stones][Jewels and Stones]                                 | [Link](/%23771) | Easy       ||
-| 804   | [Unique Morse Code Words][Unique Morse Code Words]                     | [Link](/%23804) | Easy       ||
-| 832   | [Flipping an Image][Flipping an Image]                                 | [Link](/%23832) | Easy       ||
-| 807   | [Max Increase to Keep City Skyline][Max Increase to Keep City Skyline] | [Link](/%23807) | Medium     |⭐|
-| 654   | [Maximum Binary Tree][Maximum Binary Tree]                             | [Link](/%23654) | Medium     |⭐|
+| #     | Source                                                                 | Solution        | Difficulty |
+| :---: | :--------------------------------------------------------------------: | :-------------: | :--------: | :---: |
+| 1     | [Two Sum][Two Sum]                                                     | [Link](%231)    | Easy       |
+| 657   | [Judge Route Circle][Judge Route Circle]                               | [Link](/%23657) | Easy       |
+| 771   | [Jewels and Stones][Jewels and Stones]                                 | [Link](/%23771) | Easy       |
+| 804   | [Unique Morse Code Words][Unique Morse Code Words]                     | [Link](/%23804) | Easy       |
+| 832   | [Flipping an Image][Flipping an Image]                                 | [Link](/%23832) | Easy       |
+| 807   | [Max Increase to Keep City Skyline][Max Increase to Keep City Skyline] | [Link](/%23807) | Medium     | ⭐     |
+| 654   | [Maximum Binary Tree][Maximum Binary Tree]                             | [Link](/%23654) | Medium     | ⭐     |
+| 461   | [Hamming Distance][Hamming Distance]                                   | [Link](/%23461) | Easy       |
 
 
 <!-- 參考 超連結 Source -->
@@ -25,3 +26,5 @@ ___
 [Flipping an Image]:https://leetcode.com/problems/flipping-an-image/description/
 [Max Increase to Keep City Skyline]:https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/
 [Maximum Binary Tree]:https://leetcode.com/problems/maximum-binary-tree/description/
+[Hamming Distance]:https://leetcode.com/problems/hamming-distance/description/
+
