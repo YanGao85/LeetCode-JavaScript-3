@@ -46,8 +46,130 @@ Output: [1,1,0,1,1,null,1]
 
 ### 備註
 #### 程式怎麼跑 不記起來會忘記
- 1. 用 互斥或閘(XOR) 算出兩數的差異數的十進位值
- 2. 用 while(){} 算出該數的二進位制有幾個 1 
+ 1. 用 遞迴 進到每一個節點
+ 2. 判斷是不是其 root.val 是不是 0 , 是的話就給予 null
 
 ```
+Input: [1,0,1,0,0,0,1]
+
+               1 
+            /     \
+           0       1
+         /   \    /  \
+        0     0  0    1
+
+
+1. 
+root.val = 1
+root.left = new TreeNode(0)
+root.right = new TreeNode(1)
+               1 
+            /     \
+           0       1
+
+
+2. left
+root.val = 0
+root.left = new TreeNode(0)
+root.right = new TreeNode(0)
+               1 
+            /     \
+           0       1
+        /     \
+       0       0
+
+
+3. left left 
+root.val = 0
+root.left = new TreeNode(null)
+root.right = new TreeNode(null) 
+                     1 
+                  /     \
+                 0       1
+              /     \
+             0       0
+          /     \
+       null    null
+
+
+4. left right 
+root.val = 0
+root.left = new TreeNode(null)
+root.right = new TreeNode(null) 
+                     1 
+                  /     \
+                 0       1
+              /     \
+             0       0
+          /    \    /  \
+       null   null null null
+
+5. left left left
+
+root == null
+return null
+
+
+6. left left right
+
+root == null
+return null
+
+
+7. left right left
+
+root == null
+return null
+
+
+8. left right right
+
+root == null
+return null
+
+
+9. 於是 left left
+
+root.left === null && root.right === null && root.val === 0
+return null
+
+                        1 
+                    /      \
+                  0          1
+              /      \
+            null       0
+          /    \     /    \
+       null   null  null  null
+
+
+9. 於是 left right
+
+root.left === null && root.right === null && root.val === 0
+return null
+
+                        1 
+                    /      \
+                  0          1
+              /      \
+            null      null
+          /    \     /    \
+       null   null  null  null
+
+
+9. 於是 left 
+
+root.left === null && root.right === null && root.val === 0
+return null
+
+                        1 
+                    /      \
+                  null       1
+              /      \
+            null      null
+          /    \     /    \
+       null   null  null  null
+
+
+10. 以此類推
+
 ```
