@@ -16,7 +16,7 @@ ___
 | 7     | 654   | [Maximum Binary Tree][#654]               | [Link](/%23654) | Medium     | 2018-06-15 | ⭐     |
 | 8     | 461   | [Hamming Distance][#461]                  | [Link](/%23461) | Easy       | 2018-06-15 |
 | 9     | 814   | [Binary Tree Pruning][#814]               | [Link](/%23814) | Medium     | 2018-06-19 | ⭐     |
-| 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/%23617) | Easy       | 2018-06-19 |       |
+| 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/%23617) | Easy       | 2018-06-19 | ⭐     |
 
 
 <!-- 參考 超連結 Source -->
