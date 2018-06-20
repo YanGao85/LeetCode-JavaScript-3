@@ -18,6 +18,8 @@ ___
 | 9     | 814   | [Binary Tree Pruning][#814]               | [Link](/%23814) | Medium     | 2018-06-19 | ⭐     |
 | 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/%23617) | Easy       | 2018-06-19 | ⭐     |
 | 11    | 797   | [All Paths From Source to Target][#797]   | [Link](/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
+| 12    | 728   | [Self Dividing Numbers][#728]            | [Link](/%23728) | Easy       | 2018-06-20 |      |
+
 
 
 
@@ -33,3 +35,4 @@ ___
 [#814]:https://leetcode.com/problems/binary-tree-pruning/description/
 [#617]:https://leetcode.com/problems/merge-two-binary-trees/description/
 [#797]:https://leetcode.com/problems/all-paths-from-source-to-target/description/
+[#728]:https://leetcode.com/problems/self-dividing-numbers/description/
