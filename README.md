@@ -5,20 +5,20 @@
 ![Author](https://img.shields.io/badge/Author-Junxiang-yellow.svg)
 ___
 ## Problems
-| No    | #     | Source                                    | Solution        | Difficulty | Date       | Star  |
-| :---: | :---: | :---------------------------------------: | :-------------: | :--------: | :--------: | :---: |
-| 1     | 1     | [Two Sum][#1]                             | [Link](%231)    | Easy       | 2018-05-29 |
-| 2     | 657   | [Judge Route Circle][#657]                | [Link](/%23657) | Easy       | 2018-05-29 |
-| 3     | 771   | [Jewels and Stones][#771]                 | [Link](/%23771) | Easy       | 2018-06-06 |
-| 4     | 804   | [Unique Morse Code Words][#804]           | [Link](/%23804) | Easy       | 2018-06-07 |
-| 5     | 832   | [Flipping an Image][#832]                 | [Link](/%23832) | Easy       | 2018-06-08 |
-| 6     | 807   | [Max Increase to Keep City Skyline][#807] | [Link](/%23807) | Medium     | 2018-06-08 | ⭐     |
-| 7     | 654   | [Maximum Binary Tree][#654]               | [Link](/%23654) | Medium     | 2018-06-15 | ⭐     |
-| 8     | 461   | [Hamming Distance][#461]                  | [Link](/%23461) | Easy       | 2018-06-15 |
-| 9     | 814   | [Binary Tree Pruning][#814]               | [Link](/%23814) | Medium     | 2018-06-19 | ⭐     |
-| 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/%23617) | Easy       | 2018-06-19 | ⭐     |
-| 11    | 797   | [All Paths From Source to Target][#797]   | [Link](/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
-| 12    | 728   | [Self Dividing Numbers][#728]            | [Link](/%23728) | Easy       | 2018-06-20 |      |
+| No    | #     | Source                                    | Solution                   | Difficulty | Date       | Star  |
+| :---: | :---: | :---------------------------------------: | :------------------------: | :--------: | :--------: | :---: |
+| 1     | 1     | [Two Sum][#1]                             | [Link](/JavaScript/%231)   | Easy       | 2018-05-29 |
+| 2     | 657   | [Judge Route Circle][#657]                | [Link](/JavaScript/%23657) | Easy       | 2018-05-29 |
+| 3     | 771   | [Jewels and Stones][#771]                 | [Link](/JavaScript/%23771) | Easy       | 2018-06-06 |
+| 4     | 804   | [Unique Morse Code Words][#804]           | [Link](/JavaScript/%23804) | Easy       | 2018-06-07 |
+| 5     | 832   | [Flipping an Image][#832]                 | [Link](/JavaScript/%23832) | Easy       | 2018-06-08 |
+| 6     | 807   | [Max Increase to Keep City Skyline][#807] | [Link](/JavaScript/%23807) | Medium     | 2018-06-08 | ⭐     |
+| 7     | 654   | [Maximum Binary Tree][#654]               | [Link](/JavaScript/%23654) | Medium     | 2018-06-15 | ⭐     |
+| 8     | 461   | [Hamming Distance][#461]                  | [Link](/JavaScript/%23461) | Easy       | 2018-06-15 |
+| 9     | 814   | [Binary Tree Pruning][#814]               | [Link](/JavaScript/%23814) | Medium     | 2018-06-19 | ⭐     |
+| 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/JavaScript/%23617) | Easy       | 2018-06-19 | ⭐     |
+| 11    | 797   | [All Paths From Source to Target][#797]   | [Link](/JavaScript/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
+| 12    | 728   | [Self Dividing Numbers][#728]             | [Link](/JavaScript/%23728) | Easy       | 2018-06-20 |       |
 
 
 
