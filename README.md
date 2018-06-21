@@ -19,7 +19,8 @@ ___
 | 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/JavaScript/%23617) | Easy       | 2018-06-19 | ⭐     |
 | 11    | 797   | [All Paths From Source to Target][#797]   | [Link](/JavaScript/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
 | 12    | 728   | [Self Dividing Numbers][#728]             | [Link](/JavaScript/%23728) | Easy       | 2018-06-20 |       |
-| 13    | 561   | [Array Partition I][#561]             | [Link](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
+| 13    | 561   | [Array Partition I][#561]                 | [Link](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
+| 14    | 763   | [Partition Labels][#763]                  | [Link](/JavaScript/%23763) | Medium     | 2018-06-21 |       |
 
 
 
@@ -38,3 +39,4 @@ ___
 [#797]:https://leetcode.com/problems/all-paths-from-source-to-target/description/
 [#728]:https://leetcode.com/problems/self-dividing-numbers/description/
 [#561]:https://leetcode.com/problems/array-partition-i/description/
+[#763]:https://leetcode.com/problems/partition-labels/description/
