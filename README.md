@@ -21,6 +21,7 @@ ___
 | 12    | 728   | [Self Dividing Numbers][#728]             | [Link](/JavaScript/%23728) | Easy       | 2018-06-20 |       |
 | 13    | 561   | [Array Partition I][#561]                 | [Link](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
 | 14    | 763   | [Partition Labels][#763]                  | [Link](/JavaScript/%23763) | Medium     | 2018-06-21 |       |
+| 15    | 338   | [Counting Bits][#338]                     | [Link](/JavaScript/%23338) | Medium     | 2018-06-22 | ⭐⭐    |
 
 
 
@@ -40,3 +41,4 @@ ___
 [#728]:https://leetcode.com/problems/self-dividing-numbers/description/
 [#561]:https://leetcode.com/problems/array-partition-i/description/
 [#763]:https://leetcode.com/problems/partition-labels/description/
+[#338]:https://leetcode.com/problems/counting-bits/description/
