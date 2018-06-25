@@ -22,6 +22,7 @@ ___
 | 13    | 561   | [Array Partition I][#561]                 | [Link](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
 | 14    | 763   | [Partition Labels][#763]                  | [Link](/JavaScript/%23763) | Medium     | 2018-06-21 |       |
 | 15    | 338   | [Counting Bits][#338]                     | [Link](/JavaScript/%23338) | Medium     | 2018-06-22 | ⭐⭐    |
+| 16    | 476   | [Number Complement][#476]                 | [Link](/JavaScript/%23476) | Easy       | 2018-06-25 |
 
 
 
@@ -42,3 +43,4 @@ ___
 [#561]:https://leetcode.com/problems/array-partition-i/description/
 [#763]:https://leetcode.com/problems/partition-labels/description/
 [#338]:https://leetcode.com/problems/counting-bits/description/
+[#476]:https://leetcode.com/problems/number-complement/description/
