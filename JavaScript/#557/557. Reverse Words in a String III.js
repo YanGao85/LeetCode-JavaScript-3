@@ -18,16 +18,7 @@ var reverseWords = function(s) {
 };
 //參考： https://github.com/xTobu/LeetCode/tree/master/JavaScript/%23344
 var reverseString = function(s) {
-	var top = '';
-	var mid = '';
-	var bottom = '';
-	s.length % 2 == 0 ? (mid = '') : (mid = s[Math.floor(s.length / 2)]);
-
-	for (let i = 0; i < Math.floor(s.length / 2); i++) {
-		top = top + s[s.length - 1 - i];
-		bottom = s[i] + bottom;
-	}
-	return top + mid + bottom;
+	return s.split('').reverse().join('')
 };
 
 console.log(reverseWords("Let's take LeetCode contest"));
