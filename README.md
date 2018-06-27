@@ -27,6 +27,7 @@ ___
 | 18    | 344   | [Reverse String][#344]                    | [Link](/JavaScript/%23344) | Easy       | 2018-06-25 |
 | 19    | 557   | [Reverse Words in a String III][#557]     | [Link](/JavaScript/%23557) | Easy       | 2018-06-26 |
 | 20    | 541   | [Reverse String II][#541]                 | [Link](/JavaScript/%23541) | Easy       | 2018-06-26 |
+| 21    | 406   | [Queue Reconstruction by Height][#406]    | [Link](/JavaScript/%23406) | Medium     | 2018-06-27 | ⭐     |
 
 
 
@@ -54,4 +55,5 @@ ___
 [#344]:https://leetcode.com/problems/reverse-string/description/
 [#557]:https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
 [#541]:https://leetcode.com/problems/reverse-string-ii/description/
+[#406]:https://leetcode.com/problems/queue-reconstruction-by-height/description/
 
