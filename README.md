@@ -7,27 +7,27 @@ ___
 ## Problems
 | No    | #     | Source                                    | Solution                   | Difficulty | Date       | Star  |
 | :---: | :---: | :---------------------------------------: | :------------------------: | :--------: | :--------: | :---: |
-| 1     | 1     | [Two Sum][#1]                             | [Link](/JavaScript/%231)   | Easy       | 2018-05-29 |
-| 2     | 657   | [Judge Route Circle][#657]                | [Link](/JavaScript/%23657) | Easy       | 2018-05-29 |
-| 3     | 771   | [Jewels and Stones][#771]                 | [Link](/JavaScript/%23771) | Easy       | 2018-06-06 |
-| 4     | 804   | [Unique Morse Code Words][#804]           | [Link](/JavaScript/%23804) | Easy       | 2018-06-07 |
-| 5     | 832   | [Flipping an Image][#832]                 | [Link](/JavaScript/%23832) | Easy       | 2018-06-08 |
-| 6     | 807   | [Max Increase to Keep City Skyline][#807] | [Link](/JavaScript/%23807) | Medium     | 2018-06-08 | ⭐     |
-| 7     | 654   | [Maximum Binary Tree][#654]               | [Link](/JavaScript/%23654) | Medium     | 2018-06-15 | ⭐     |
-| 8     | 461   | [Hamming Distance][#461]                  | [Link](/JavaScript/%23461) | Easy       | 2018-06-15 |
-| 9     | 814   | [Binary Tree Pruning][#814]               | [Link](/JavaScript/%23814) | Medium     | 2018-06-19 | ⭐     |
-| 10    | 617   | [Merge Two Binary Trees][#617]            | [Link](/JavaScript/%23617) | Easy       | 2018-06-19 | ⭐     |
-| 11    | 797   | [All Paths From Source to Target][#797]   | [Link](/JavaScript/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
-| 12    | 728   | [Self Dividing Numbers][#728]             | [Link](/JavaScript/%23728) | Easy       | 2018-06-20 |       |
-| 13    | 561   | [Array Partition I][#561]                 | [Link](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
-| 14    | 763   | [Partition Labels][#763]                  | [Link](/JavaScript/%23763) | Medium     | 2018-06-21 |       |
-| 15    | 338   | [Counting Bits][#338]                     | [Link](/JavaScript/%23338) | Medium     | 2018-06-22 | ⭐⭐    |
-| 16    | 476   | [Number Complement][#476]                 | [Link](/JavaScript/%23476) | Easy       | 2018-06-25 |
-| 17    | 821   | [Shortest Distance to a Character][#821]  | [Link](/JavaScript/%23821) | Easy       | 2018-06-25 |
-| 18    | 344   | [Reverse String][#344]                    | [Link](/JavaScript/%23344) | Easy       | 2018-06-25 |
-| 19    | 557   | [Reverse Words in a String III][#557]     | [Link](/JavaScript/%23557) | Easy       | 2018-06-26 |
-| 20    | 541   | [Reverse String II][#541]                 | [Link](/JavaScript/%23541) | Easy       | 2018-06-26 |
-| 21    | 406   | [Queue Reconstruction by Height][#406]    | [Link](/JavaScript/%23406) | Medium     | 2018-06-27 | ⭐     |
+| 1     | 1     | [Two Sum][#1]                             | [JS](/JavaScript/%231)   | Easy       | 2018-05-29 |
+| 2     | 657   | [Judge Route Circle][#657]                | [JS](/JavaScript/%23657) | Easy       | 2018-05-29 |
+| 3     | 771   | [Jewels and Stones][#771]                 | [JS](/JavaScript/%23771) | Easy       | 2018-06-06 |
+| 4     | 804   | [Unique Morse Code Words][#804]           | [JS](/JavaScript/%23804) | Easy       | 2018-06-07 |
+| 5     | 832   | [Flipping an Image][#832]                 | [JS](/JavaScript/%23832) | Easy       | 2018-06-08 |
+| 6     | 807   | [Max Increase to Keep City Skyline][#807] | [JS](/JavaScript/%23807) | Medium     | 2018-06-08 | ⭐     |
+| 7     | 654   | [Maximum Binary Tree][#654]               | [JS](/JavaScript/%23654) | Medium     | 2018-06-15 | ⭐     |
+| 8     | 461   | [Hamming Distance][#461]                  | [JS](/JavaScript/%23461) | Easy       | 2018-06-15 |
+| 9     | 814   | [Binary Tree Pruning][#814]               | [JS](/JavaScript/%23814) | Medium     | 2018-06-19 | ⭐     |
+| 10    | 617   | [Merge Two Binary Trees][#617]            | [JS](/JavaScript/%23617) | Easy       | 2018-06-19 | ⭐     |
+| 11    | 797   | [All Paths From Source to Target][#797]   | [JS](/JavaScript/%23797) | Medium     | 2018-06-19 | ⭐⭐    |
+| 12    | 728   | [Self Dividing Numbers][#728]             | [JS](/JavaScript/%23728) | Easy       | 2018-06-20 |       |
+| 13    | 561   | [Array Partition I][#561]                 | [JS](/JavaScript/%23561) | Easy       | 2018-06-20 |       |
+| 14    | 763   | [Partition Labels][#763]                  | [JS](/JavaScript/%23763) | Medium     | 2018-06-21 |       |
+| 15    | 338   | [Counting Bits][#338]                     | [JS](/JavaScript/%23338) | Medium     | 2018-06-22 | ⭐⭐    |
+| 16    | 476   | [Number Complement][#476]                 | [JS](/JavaScript/%23476) | Easy       | 2018-06-25 |
+| 17    | 821   | [Shortest Distance to a Character][#821]  | [JS](/JavaScript/%23821) | Easy       | 2018-06-25 |
+| 18    | 344   | [Reverse String][#344]                    | [JS](/JavaScript/%23344) | Easy       | 2018-06-25 |
+| 19    | 557   | [Reverse Words in a String III][#557]     | [JS](/JavaScript/%23557) | Easy       | 2018-06-26 |
+| 20    | 541   | [Reverse String II][#541]                 | [JS](/JavaScript/%23541) | Easy       | 2018-06-26 |
+| 21    | 406   | [Queue Reconstruction by Height][#406]    | [JS](/JavaScript/%23406) | Medium     | 2018-06-27 | ⭐     |
 
 
 
