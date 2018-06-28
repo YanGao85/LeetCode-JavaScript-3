@@ -5,8 +5,8 @@
 ![Author](https://img.shields.io/badge/Author-Junxiang-yellow.svg)
 ___
 ## Problems
-| No    | #     | Source                                    | Solution                   | Difficulty | Date       | Star  |
-| :---: | :---: | :---------------------------------------: | :------------------------: | :--------: | :--------: | :---: |
+| No    | #     | Source                                    | Solution                 | Difficulty | Date       | Star  |
+| :---: | :---: | :---------------------------------------: | :----------------------: | :--------: | :--------: | :---: |
 | 1     | 1     | [Two Sum][#1]                             | [JS](/JavaScript/%231)   | Easy       | 2018-05-29 |
 | 2     | 657   | [Judge Route Circle][#657]                | [JS](/JavaScript/%23657) | Easy       | 2018-05-29 |
 | 3     | 771   | [Jewels and Stones][#771]                 | [JS](/JavaScript/%23771) | Easy       | 2018-06-06 |
@@ -28,10 +28,7 @@ ___
 | 19    | 557   | [Reverse Words in a String III][#557]     | [JS](/JavaScript/%23557) | Easy       | 2018-06-26 |
 | 20    | 541   | [Reverse String II][#541]                 | [JS](/JavaScript/%23541) | Easy       | 2018-06-26 |
 | 21    | 406   | [Queue Reconstruction by Height][#406]    | [JS](/JavaScript/%23406) | Medium     | 2018-06-27 | ⭐     |
-
-
-
-
+| 22    | 136   | [Single Number][#136]                     | [JS](/JavaScript/%23136) | Easy       | 2018-06-28 | ⭐     |
 
 
 <!-- 參考 超連結 Source -->
@@ -56,4 +53,5 @@ ___
 [#557]:https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
 [#541]:https://leetcode.com/problems/reverse-string-ii/description/
 [#406]:https://leetcode.com/problems/queue-reconstruction-by-height/description/
+[#136]:https://leetcode.com/problems/single-number/description/
 
