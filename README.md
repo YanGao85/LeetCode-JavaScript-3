@@ -29,6 +29,7 @@ ___
 | 20    | 541   | [Reverse String II][#541]                 | [JS](/JavaScript/%23541) | Easy       | 2018-06-26 |
 | 21    | 406   | [Queue Reconstruction by Height][#406]    | [JS](/JavaScript/%23406) | Medium     | 2018-06-27 | ⭐     |
 | 22    | 136   | [Single Number][#136]                     | [JS](/JavaScript/%23136) | Easy       | 2018-06-28 | ⭐     |
+| 23    | 104   | [Maximum Depth of Binary Tree][#104]      | [JS](/JavaScript/%23104) | Easy       | 2018-06-29 |
 
 
 <!-- 參考 超連結 Source -->
@@ -54,4 +55,4 @@ ___
 [#541]:https://leetcode.com/problems/reverse-string-ii/description/
 [#406]:https://leetcode.com/problems/queue-reconstruction-by-height/description/
 [#136]:https://leetcode.com/problems/single-number/description/
-
+[#104]:https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
