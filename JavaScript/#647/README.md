@@ -3,7 +3,7 @@
 ### Question
 
 Given a string, your task is to count how many palindromic substrings in this string.  
-The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.
+The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.  
 
 ### Note
 
@@ -29,4 +29,8 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 #### Question
 
-寫出一個能夠將字串當作輸入並回傳相反後字串的函數.
+給定一個字串, 你的任務是算出這個字串裡有幾個回文子串.  
+具有不同起始位置和結束位置的子字串符會被計算成不同的子字串, 即使他們包含著相同的字元.  
+
+#### Note
+1. 輸入字串的長度不會超過 1000.
