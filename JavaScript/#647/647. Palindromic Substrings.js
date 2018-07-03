@@ -26,10 +26,15 @@ var countSubstrings = function(s) {
  * 用鏡面位置去判斷是不是對稱,
  * 跑完都一樣就回傳 true
  */
-var isPalindrome = function(str) {
+var isPalindrome = (str)=> {
 	for (let i = 0; i <= str.length - i - 1; i++) {
 		if (str[i] !== str[str.length - i - 1]) return false;
 	}
-	return true;
+    return true;
+    
+	// if(str !==str.split('').reverse().join('')){
+    //     return false; 
+    // }
+    // return true;
 };
 console.log(countSubstrings('abcba'));
