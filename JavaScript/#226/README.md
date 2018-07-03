@@ -1,5 +1,5 @@
-# 226. Invert Binary Tree
-# 226. 翻轉二元樹
+# 226. Invert Binary Tree - 反轉二元樹
+
 
 ### Question
 Invert a binary tree. 
