@@ -31,7 +31,7 @@ ___
 | 22    | 136   | [Single Number][#136]                     | [JS](/JavaScript/%23136)         | Easy       | 2018-06-28 | ⭐     |
 | 23    | 104   | [Maximum Depth of Binary Tree][#104]      | [JS](/JavaScript/%23104)         | Easy       | 2018-06-29 | ⭐     |
 | 24    | 647   | [Palindromic Substrings][#647]            | [JS](/JavaScript/%23647)         | Medium     | 2018-07-02 | ⭐     |
-| "     | "     | ["][#647]                                 | [Another JS](/JavaScript/%23647) | Medium     | 2018-07-03 | ⭐⭐    |
+| 25    | "     | ["][#647]                                 | [Another JS](/JavaScript/%23647) | Medium     | 2018-07-03 | ⭐⭐    |
 
 
 
