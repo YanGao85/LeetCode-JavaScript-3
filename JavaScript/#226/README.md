@@ -32,10 +32,10 @@ This problem was inspired by this original tweet by Max Howell:
 
 #### 問題
 
-翻轉一個二元樹.
+反轉一個二元樹.
 
 #### 細故
 此問題的發想源自這個 Max Howell 的 tweet :  
 > Google:  
 > 我們 90% 的工程師都使用你寫的軟體 (Homebrew),   
-> 但你卻沒有辦法在白板上翻轉二元樹, 所以 f*** off.  
+> 但你卻沒有辦法在白板上反轉二元樹, 所以 f*** off.  
