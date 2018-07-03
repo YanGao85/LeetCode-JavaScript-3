@@ -1,5 +1,6 @@
 # 226. Invert Binary Tree - 反轉二元樹
 
+## Origin
 
 ### Question
 Invert a binary tree. 
@@ -28,13 +29,13 @@ This problem was inspired by this original tweet by Max Howell:
 > 90% of our engineers use the software you wrote (Homebrew),  
 > but you can’t invert a binary tree on a whiteboard so f*** off. 
 
-### 翻譯
+## 翻譯
 
-#### 問題
+### 問題
 
 反轉一個二元樹.
 
-#### 細故
+### 細故
 此問題的發想源自這個 Max Howell 的 tweet :  
 > Google:  
 > 我們 90% 的工程師都使用你寫的軟體 (Homebrew),   
