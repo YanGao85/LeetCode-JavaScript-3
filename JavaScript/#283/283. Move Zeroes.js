@@ -19,6 +19,39 @@
  *
  * 之後再從該陣列位置的 position 為起始,
  * 將後面的值改成 0 , 即可.
+ * 
+ * 例如：
+ * position = 0, i = 0, 
+ * [0, 1, 0, 3, 12], 
+ * nums[i] = 0, 忽略
+ * 
+ * position = 0, i = 1, 
+ * [0, 1, 0, 3, 12], 
+ * nums[i] = 1, 
+ * nums[position] = nums[i]
+ * [1, 1, 0, 3, 12]
+ * position + 1 
+ * 
+ * position = 1, i = 2, 
+ * [1, 1, 0, 3, 12], 
+ * nums[i] = 0, 忽略
+ * 
+ * position = 1, i = 3, 
+ * [1, 1, 0, 3, 12], 
+ * nums[i] = 3,
+ * nums[position] = nums[i]
+ * [1, 3, 0, 3, 12]
+ * position + 1 
+ * 
+ * position = 2, i = 4, 
+ * [1, 3, 0, 3, 12], 
+ * nums[i] = 12,
+ * nums[position] = nums[i]
+ * [1, 3, 12, 3, 12]
+ * position + 1 
+ * 
+ * 最後將陣列從 position 開始後的元素都置換成 0 
+ * 
  */
 var moveZeroes = function(nums) {
 	let position = 0,
