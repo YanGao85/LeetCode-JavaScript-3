@@ -35,6 +35,7 @@ ___
 | 26    | "     | ["][#647]                                 | [3rd](/JavaScript/%23647) | Medium     | 2018-07-03 | ⭐⭐    |
 | 27    | 226   | [Invert Binary Tree][#226]                | [JS](/JavaScript/%23226)  | Easy       | 2018-07-03 |       |
 | 28    | 283   | [Move Zeroes][#283]                       | [JS](/JavaScript/%23283)  | Easy       | 2018-07-04 |       |
+| 29    | "     | ["][#283]                                 | [2nd](/JavaScript/%23283)  | Easy       | 2018-07-04 |       |
 
 
 
