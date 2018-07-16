@@ -1,10 +1,12 @@
-# 283. Move Zeroes - 移動零
+# 448. Find All Numbers Disappeared in an Array - 找出所有消失在陣列裡的數字
+
+> 算法二很有趣, 找缺少數的問題可以應用
 
 ## Origin
 
 ### Question
 
-Given an array of integers where 1 ≤ a[i] ≤ *n* (_n_ = size of array),  
+Given an array of integers where 1 ≤ a[i] ≤ _n_ (_n_ = size of array),  
 some elements appear twice and others appear once.
 
 Find all the elements of [1, *n*] inclusive that do not appear in this array.
@@ -27,10 +29,11 @@ Output:
 ## 翻譯
 
 ### 問題
-給定一個整數陣列, 其中值的範圍在 1 ≤ a[i] ≤ *n* (_n_ 等於陣列長度),  
-有些元素出現兩次, 其他則出現一次.  
-  
-找出所有包含在 [1, *n*] 裡但沒有出現在這個陣列裡的所有元素.  
-  
+
+給定一個整數陣列, 其中值的範圍在 1 ≤ a[i] ≤ _n_ (_n_ 等於陣列長度),  
+有些元素出現兩次, 其他則出現一次.
+
+找出所有包含在 [1, *n*] 裡但沒有出現在這個陣列裡的所有元素.
+
 你可以做到沒有額外空間並且時間複雜度為 O(_n_) 嗎?  
-你可以認為那個回傳答案的陣列不算入額外空間.  
+你可以認為那個回傳答案的陣列不算入額外空間.
