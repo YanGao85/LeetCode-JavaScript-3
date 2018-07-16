@@ -1,6 +1,7 @@
 # 94. Binary Tree Inorder Traversal - 二元樹中序遍歷
 
-> 參考：https://www.jianshu.com/p/456af5480cee
+> 前中後序遍歷，參考：https://www.jianshu.com/p/456af5480cee
+> 使用堆疊的方式做二元樹遍歷
 
 ## Origin
 
