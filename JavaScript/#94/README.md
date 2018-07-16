@@ -1,10 +1,12 @@
 # 94. Binary Tree Inorder Traversal - 二元樹中序遍歷
 
+> 參考：https://www.jianshu.com/p/456af5480cee
+
 ## Origin
 
 ### Question
 
-Given a binary tree, return the *inorder* traversal of its nodes' values.  
+Given a binary tree, return the _inorder_ traversal of its nodes' values.
 
 ### Example
 
@@ -21,7 +23,7 @@ Output: [1,3,2]
 
 ### Follow up
 
-Recursive solution is trivial, could you do it iteratively?  
+Recursive solution is trivial, could you do it iteratively?
 
 ---
 
@@ -29,7 +31,7 @@ Recursive solution is trivial, could you do it iteratively?
 
 ### 問題
 
-給定一個二元樹, 回傳其中序遍歷的節點的值. 
+給定一個二元樹, 回傳其中序遍歷的節點的值.
 
 ### 後續
 

@@ -13,6 +13,9 @@
 /**
  * 遞迴解法
  * 最後回傳 result
+ * 
+ * 中序遍歷,
+ * 因此以左子樹為優先
  */
 var inorderTraversal = function(root) {
 	var result = [];
