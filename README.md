@@ -36,8 +36,10 @@ ___
 | 27    | 226   | [Invert Binary Tree][#226]                       | [JS](/JavaScript/%23226)  | Easy       | 2018-07-03 |       |
 | 28    | 283   | [Move Zeroes][#283]                              | [JS](/JavaScript/%23283)  | Easy       | 2018-07-04 |       |
 | 29    | "     | ["][#283]                                        | [2nd](/JavaScript/%23283) | Easy       | 2018-07-04 |       |
-| 30    | 448   | [Find All Numbers Disappeared in an Array][#448] | [JS](/JavaScript/%23448)  | Easy       | 2018-07-16 | ⭐⭐    |
-
+| 30    | 448   | [Find All Numbers Disappeared in an Array][#448] | [JS](/JavaScript/%23448)  | Easy       | 2018-07-16 |       |
+| 31    | 448   | ["][#448]                                        | [2nd](/JavaScript/%23448) | Easy       | 2018-07-16 | ⭐⭐    |
+| 32    | 94    | [Binary Tree Inorder Traversal][#94]             | [JS](/JavaScript/%2394)   | Easy       | 2018-07-16 |       |
+| 33    | 94    | ["][#94]                                         | [2nd](/JavaScript/%2394)  | Easy       | 2018-07-16 | ⭐⭐    |
 
 
 <!-- 參考 超連結 Source -->
@@ -68,4 +70,7 @@ ___
 [#226]:https://leetcode.com/problems/invert-binary-tree/description/
 [#283]:https://leetcode.com/problems/move-zeroes/description/
 [#448]:https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
+[#94]:https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+
+
 
