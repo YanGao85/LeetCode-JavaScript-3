@@ -38,8 +38,8 @@ ___
 | 29    | "     | ["][#283]                                        | [2nd](/JavaScript/%23283) | Easy       | 2018-07-04 |       |
 | 30    | 448   | [Find All Numbers Disappeared in an Array][#448] | [JS](/JavaScript/%23448)  | Easy       | 2018-07-16 |       |
 | 31    | 448   | ["][#448]                                        | [2nd](/JavaScript/%23448) | Easy       | 2018-07-16 | ⭐     |
-| 32    | 94    | [Binary Tree Inorder Traversal][#94]             | [JS](/JavaScript/%2394)   | Easy       | 2018-07-16 |       |
-| 33    | 94    | ["][#94]                                         | [2nd](/JavaScript/%2394)  | Easy       | 2018-07-16 | ⭐     |
+| 32    | 94    | [Binary Tree Inorder Traversal][#94]             | [JS](/JavaScript/%2394)   | Medium     | 2018-07-16 |       |
+| 33    | 94    | ["][#94]                                         | [2nd](/JavaScript/%2394)  | Medium     | 2018-07-16 | ⭐     |
 
 
 <!-- 參考 超連結 Source -->
