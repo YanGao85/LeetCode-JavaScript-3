@@ -9,19 +9,21 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
+
+/**
+ * 遞迴解法
+ * 最後回傳 result
+ */
 var inorderTraversal = function(root) {
-	if (!root) return [];
-	var stack = [];
-	var number = [];
-	while (stack.length !== 0 || root) {
-		if (root) {
-			stack.push(root);
-			root = root.left;
-		} else {
-			root = stack.pop();
-			number.push(root.val);
-			root = root.right;
+	var result = [];
+	
+	function inOrder(node) {
+		if (node) {
+			inOrder(node.left);
+			result.push(node.val); 
+			inOrder(node.right);
 		}
 	}
-	return number;
+	inOrder(root);
+	return result;
 };
