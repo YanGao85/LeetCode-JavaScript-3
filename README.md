@@ -40,7 +40,7 @@ ___
 | 31    | 448   | ["][#448]                                        | [2nd](/JavaScript/%23448) | Easy       | 2018-07-16 | ⭐     |
 | 32    | 94    | [Binary Tree Inorder Traversal][#94]             | [JS](/JavaScript/%2394)   | Medium     | 2018-07-16 |       |
 | 33    | 94    | ["][#94]                                         | [2nd](/JavaScript/%2394)  | Medium     | 2018-07-16 | ⭐     |
-| 34    | 238   | [Product of Array Except Self][#238]             | [2nd](/JavaScript/%23238) | Medium     | 2018-07-17 | ⭐     |
+| 34    | 238   | [Product of Array Except Self][#238]             | [JS](/JavaScript/%23238)  | Medium     | 2018-07-17 | ⭐     |
 
 
 <!-- 參考 超連結 Source -->
