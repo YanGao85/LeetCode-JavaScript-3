@@ -18,8 +18,8 @@ var topKFrequent = function(nums, k) {
 	 * 用 freqs 新建一個 Object.keys()
 	 * 並搭配 freqs 做排序
 	 * 之後以 slice() 取到目標數量 k
-	 * 再用 map() 整理新的陣列, 
-	 * 因為Object.keys()的關係, 故用 Number(key) 傳入 key 
+	 * 再用 map() 整理新的陣列,
+	 * 因為Object.keys()的關係, 故用 Number(key) 傳入 key
 	 */
 	return Object.keys(freqs)
 		.sort((a, b) => freqs[b] - freqs[a])
@@ -35,15 +35,19 @@ console.log(topKFrequent(nums, k));
  * 別種方式
  */
 // var topKFrequent = function(nums, k) {
-//     var hash={}, res = [];
-// 	nums.forEach(function(value){
-// 	     hash[value]= ( hash[value]+1)|| 1;
+// 	var hash = {},
+// 		res = [];
+// 	nums.forEach(function(value) {
+// 		hash[value] = hash[value] + 1 || 1;
 // 	});
-// 	Object.keys(hash).sort(function(a,b){return hash[b]-hash[a]})
-// 	.slice(0,k)
-// 	.forEach(function(x){
-// 		res.push(parseInt(x));
-// 	});
+// 	Object.keys(hash)
+// 		.sort(function(a, b) {
+// 			return hash[b] - hash[a];
+// 		})
+// 		.slice(0, k)
+// 		.forEach(function(x) {
+// 			res.push(parseInt(x));
+// 		});
 // 	return res;
 // };
 
