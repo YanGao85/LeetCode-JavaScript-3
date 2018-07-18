@@ -32,7 +32,7 @@ let k = 2;
 console.log(topKFrequent(nums, k));
 
 /**
- * 別種
+ * 別種方式
  */
 // var topKFrequent = function(nums, k) {
 //     var hash={}, res = [];
