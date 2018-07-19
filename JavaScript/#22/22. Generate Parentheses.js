@@ -16,10 +16,19 @@ var generateParenthesis = function(n) {
 			return;
 		}
 
-		if (left < n) recurse(current + '(', left + 1, right);
-		if (right < left) recurse(current + ')', left, right + 1);
-		return arrResult
+		if (left < n)
+			// 追加 '(' , 並left + 1
+			recurse(current + '(', left + 1, right);
+
+		if (right < left)
+			// 判斷完 left < n
+			// 追加 ')' , 並left + 1
+			recurse(current + ')', left, right + 1);
+
+		// 回傳結果
+		return arrResult;
 	}
+	
 	// 執行遞迴
 	// 回傳結果
 	return recurse();
