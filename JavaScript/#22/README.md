@@ -1,4 +1,4 @@
-# 22. Generate Parentheses 產生括號
+# 22. Generate Parentheses 產生括號組
 
 ## ❀ Origin
 
@@ -74,6 +74,8 @@ var generateParenthesis = function(n) {
 -   _current_ 的長度等於 2 \* _n_ 時, 及代表正確括號, 即可推到結果陣列 _arrResult_
 -   使用遞迴, 先判斷 _left_ 要小於 _n_
 -   判斷 _right_ 小於 _left_ , 才能滿足括號規則
+-   [Ref. soleil 阿璐](https://segmentfault.com/a/1190000013690046)
+
 
 ### Execution
 
