@@ -42,6 +42,7 @@ ___
 | 33    | 94    | ["][#94]                                         | [2nd](/JavaScript/%2394)  | Medium     | 2018-07-16 | ⭐     |
 | 34    | 238   | [Product of Array Except Self][#238]             | [JS](/JavaScript/%23238)  | Medium     | 2018-07-17 | ⭐     |
 | 35    | 347   | [Top K Frequent Elements][#347]                  | [JS](/JavaScript/%23347)  | Medium     | 2018-07-18 |       |
+| 36    | 22    | [Generate Parentheses][#22]                      | [JS](/JavaScript/%2322)   | Medium     | 2018-07-19 | ⭐⭐    |
 
 
 <!-- 參考 超連結 Source -->
@@ -75,6 +76,6 @@ ___
 [#94]:https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 [#238]:https://leetcode.com/problems/product-of-array-except-self/description/
 [#347]:https://leetcode.com/problems/top-k-frequent-elements/description/
-
+[#22]:https://leetcode.com/problems/generate-parentheses/description/
 
 
