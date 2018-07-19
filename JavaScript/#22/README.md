@@ -51,6 +51,7 @@ var generateParenthesis = function(n) {
 		if (left < n)
 			// 追加 '(' , 並left + 1
 			recurse(current + '(', left + 1, right);
+
 		if (right < left)
 			// 判斷完 left < n
 			// 追加 ')' , 並left + 1
@@ -59,10 +60,11 @@ var generateParenthesis = function(n) {
 		// 回傳結果
 		return arrResult;
 	}
-	// 回傳遞迴執行後的 arrResult
+	
+	// 執行遞迴
+	// 回傳結果
 	return recurse();
 };
-console.log(generateParenthesis(3));
 ```
 
 ### Idea
