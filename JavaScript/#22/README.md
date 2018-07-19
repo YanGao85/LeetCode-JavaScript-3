@@ -1,6 +1,6 @@
 # 22. Generate Parentheses 產生括號
 
-## Origin
+## ✿ Origin
 
 ### Question
 
@@ -22,7 +22,7 @@ Output:
 
 ---
 
-## 翻譯
+## ✿ 翻譯
 
 ### 問題
 
@@ -30,7 +30,7 @@ Output:
 
 ---
 
-## Solution
+## ✿ Solution
 
 ### JavaScript
 
