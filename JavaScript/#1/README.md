@@ -1,4 +1,6 @@
-# 1. Two Sum
+# [1. Two Sum][title]
+
+[title]: https://leetcode.com/problems/two-sum/description/
 ## Origin
 
 ### Problem 
