@@ -17,7 +17,7 @@ ___
 | 8     | 461   | [Hamming Distance][#461]                         | [JS](/JavaScript/%23461)  | Easy       | 2018-06-15 | ⭐     |
 | 9     | 814   | [Binary Tree Pruning][#814]                      | [JS](/JavaScript/%23814)  | Medium     | 2018-06-19 | ⭐     |
 | 10    | 617   | [Merge Two Binary Trees][#617]                   | [JS](/JavaScript/%23617)  | Easy       | 2018-06-19 | ⭐     |
-| 11    | 797   | [All Paths From Source to Target][#797]          | [JS](/JavaScript/%23797)  | Medium     | 2018-06-19 | ⭐⭐    |
+| 11    | 797   | [All Paths From Source to Target][#797]          | [JS](/JavaScript/%23797)  | Medium     | 2018-06-19 | ⭐⭐⭐   |
 | 12    | 728   | [Self Dividing Numbers][#728]                    | [JS](/JavaScript/%23728)  | Easy       | 2018-06-20 |       |
 | 13    | 561   | [Array Partition I][#561]                        | [JS](/JavaScript/%23561)  | Easy       | 2018-06-20 |       |
 | 14    | 763   | [Partition Labels][#763]                         | [JS](/JavaScript/%23763)  | Medium     | 2018-06-21 |       |
