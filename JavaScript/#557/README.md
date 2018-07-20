@@ -1,6 +1,6 @@
 # 557. Reverse Words in a String III
 
-### Question 
+### Problem 
 Given a string,  
 you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 
@@ -16,7 +16,7 @@ Output: "s'teL ekat edoCteeL tsetnoc"
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個字串,  
 你必須倒轉每個單字裡的字母的順序, 同時保留空格和原始句子的順單字順序.  
 

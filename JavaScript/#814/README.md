@@ -1,6 +1,6 @@
 # 461. Hamming Distance
 
-### Question 
+### Problem 
 We are given the head node `root` of a binary tree, where additionally every node's value is either a 0 or a 1.  
 Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.  
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)  
@@ -35,7 +35,7 @@ Output: [1,1,0,1,1,null,1]
 <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png" alt="Example 3" width="450px" height="125px"/>
   
 ### 翻譯
-#### Question
+#### Problem
 我們被給予一個二元樹的頭根節點, 另外每個節點的值只會 0 或是 1 .  
 回傳一樣的樹, 但所有不包含 1 的子樹(在被給定的樹)都已經被移除的一樣那棵樹.  
 (回想一下, 節點 X 的子樹是 X , 加上每一個節點都是 X 的後代) 

@@ -1,6 +1,6 @@
 # 136. Single Number
 
-### Question 
+### Problem 
 Given a binary tree, find its maximum depth.  
 The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.  
 
@@ -22,7 +22,7 @@ return its depth = 3.
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個二元樹, 找出它的最大深度.  
 最大深度是從根節點沿著最長的路徑往下到最遠的葉節點.  
 

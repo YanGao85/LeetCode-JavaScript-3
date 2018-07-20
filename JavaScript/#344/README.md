@@ -1,6 +1,6 @@
 # 344. Reverse String
 
-### Question
+### Problem
 
 Write a function that takes a string as input and returns the string reversed.  
 
@@ -12,5 +12,5 @@ Given s = "hello", return "olleh".
 
 ### 翻譯
 
-#### Question
+#### Problem
 寫出一個能夠將字串當作輸入並回傳相反後字串的函數.

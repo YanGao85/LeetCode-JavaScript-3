@@ -1,6 +1,6 @@
 # 797. All Paths From Source to Target
 
-### Question 
+### Problem 
 Given a directed, acyclic graph of `N` nodes.  
 Find all possible paths from node 0 to node N-1, and return them in any order.  
   
@@ -27,7 +27,7 @@ There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定有`N`個節點的有向無環圖.  
 找出所有從節點`0`到節點`N-1`的可行路徑, 並將它們找順序排列後回傳.  
   

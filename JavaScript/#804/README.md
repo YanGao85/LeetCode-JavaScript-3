@@ -18,7 +18,7 @@ There are 2 different transformations, "--...-." and "--...--.".
  - Each words[i] will have length in range [1, 12].
  - words[i] will only consist of lowercase letters.
 
-### Question 
+### Problem 
 International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes,  
 as follows: "a" maps to ".-", "b" maps to "-...", "c" maps to "-.-.", and so on.  
   
@@ -34,7 +34,7 @@ We'll call such a concatenation, the transformation of a word.
 Return the number of different transformations among all words we have.  
   
 ### 翻譯 
-#### Question 
+#### Problem 
 國際摩斯密碼定義了一種標準的編碼,  
 每一個字母會對應到一連串的點點和破折號.  
 如下: "a" 代表 ".-", "b" 代表 "-...", "c" 代表 "-.-.", 以此類推.  

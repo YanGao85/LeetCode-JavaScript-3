@@ -1,6 +1,6 @@
 # 654. Maximum Binary Tree
 
-### Question 
+### Problem 
 Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:  
   
  1. The root is the maximum number in the array.
@@ -27,7 +27,7 @@ Output: return the tree root node representing the following tree:
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個不重複的整數陣列, 一個以此陣列建立的最大二元樹的定義如下:  
    
   1. 根節點為其陣列中的最大值  

@@ -1,6 +1,6 @@
 # 821. Shortest Distance to a Character
 
-### Question 
+### Problem 
 Given a string `S` and a character `C`,  
 return an array of integers representing the shortest distance from the character `C` in the string.   
 
@@ -17,7 +17,7 @@ Output: [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個字串 `S`, 一個字符 `C`,  
 回傳字符 `C` 在字串裡代表的最短距離的數字字串.  
 

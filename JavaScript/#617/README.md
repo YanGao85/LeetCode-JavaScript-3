@@ -1,6 +1,6 @@
 # 617. Merge Two Binary Trees
 
-### Question 
+### Problem 
 Given two binary trees and imagine that when you put one of them to cover the other,  
 some nodes of the two trees are overlapped while the others are not.  
   
@@ -34,7 +34,7 @@ Merged tree:
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定兩個二元樹, 並且想像當你把一顆樹放到另一顆上時, 
 兩棵樹的某些節點會重覆, 其他則否.  
     

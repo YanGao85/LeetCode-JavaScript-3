@@ -1,6 +1,6 @@
 # 476. Number Complement
 
-### Question
+### Problem
 
 Given a positive integer, output its complement number.  
 The complement strategy is to flip the bits of its binary representation.
@@ -28,7 +28,7 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 
 ### 翻譯
 
-#### Question 問題
+#### Problem 問題
 
 給定一個正整數, 輸出其補數.  
 補數的定義是翻轉其二進制數的每個代表位元.

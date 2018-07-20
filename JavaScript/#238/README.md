@@ -2,7 +2,7 @@
 
 ## Origin
 
-### Question
+### Problem
 
 Given an array `nums` of n integers where _n_ > 1,  
 return an array `output` such that `output[i]` is equal to the product of all the elements of `nums` except `nums[i]`.

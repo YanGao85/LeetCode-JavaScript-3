@@ -5,7 +5,7 @@
 
 ## Origin
 
-### Question
+### Problem
 
 Given a binary tree, return the _inorder_ traversal of its nodes' values.
 

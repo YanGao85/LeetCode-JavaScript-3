@@ -1,6 +1,6 @@
 # 136. Single Number
 
-### Question 
+### Problem 
 Given a `non-empty` array of integers, every element appears twice except for one.  
 Find that single one.  
 
@@ -21,7 +21,7 @@ Output: 4
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個非空整數字串, 除了一個元素外, 每個元素會出現兩次.  
 請找出那個單身狗.  
 

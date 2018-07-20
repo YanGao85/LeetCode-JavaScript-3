@@ -1,6 +1,6 @@
 # 461. Hamming Distance
 
-### Question 
+### Problem 
 The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.  
 
 Given two integers x and y, calculate the Hamming distance.  
@@ -25,7 +25,7 @@ The above arrows point to positions where the corresponding bits are different.
 
   
 ### 翻譯
-#### Question
+#### Problem
 兩個數的漢明距離是相對應的 bits 位置有所不同的數量.
 #### Note 
  - 0 ≤ x, y < 2<sup>31</sup>. 

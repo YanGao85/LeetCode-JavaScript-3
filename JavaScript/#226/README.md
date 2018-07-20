@@ -2,7 +2,7 @@
 
 ## Origin
 
-### Question
+### Problem
 
 Invert a binary tree.
 

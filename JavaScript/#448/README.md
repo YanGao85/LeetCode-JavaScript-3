@@ -4,7 +4,7 @@
 
 ## Origin
 
-### Question
+### Problem
 
 Given an array of integers where 1 ≤ a[i] ≤ _n_ (_n_ = size of array),  
 some elements appear twice and others appear once.

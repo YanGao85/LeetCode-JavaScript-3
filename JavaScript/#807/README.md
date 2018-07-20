@@ -1,6 +1,6 @@
 # 807. Max Increase to Keep City Skyline
 
-### Question 
+### Problem 
 In a 2 dimensional array grid, each value grid[i][j] represents the height of a building located there.  
 We are allowed to increase the height of any number of buildings, by any amount (the amounts can be different for different buildings).  
 Height 0 is considered to be a building as well. 
@@ -40,7 +40,7 @@ gridNew = [ [8, 4, 8, 7],
 
   
 ### 翻譯
-#### Question
+#### Problem
 在二維陣列的網格中, 每一個 grid[i][j] 代表著一個在那裏的建築物的高度.  
 我們允許增加任意數量欲增加高度的建築物, 任意的建築物增高量(數量會因為建築物而不同).  
 高度 0 也被認為是一棟建築物.  

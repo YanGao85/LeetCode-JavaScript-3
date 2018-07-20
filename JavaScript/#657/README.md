@@ -11,7 +11,7 @@ Input: "LL"
 Output: false
 ```
 
-### Question 
+### Problem 
 Initially, there is a Robot at position (0, 0).   
 Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place.  
   
@@ -20,7 +20,7 @@ The valid robot moves are R (Right), L (Left), U (Up) and D (down).
 The output should be true or false representing whether the robot makes a circle.  
 
 ### 翻譯 
-#### Question
+#### Problem
 最初, 有個機器人在位置 (0, 0).
 給他了一連串的動作之後, 判斷這機器人會不會繞一圈, 也就是回到原點.  
   

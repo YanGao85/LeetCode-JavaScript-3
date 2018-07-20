@@ -1,6 +1,6 @@
 # 557. Reverse Words in a String III
 
-### Question 
+### Problem 
 Given a string `s` and an integer `k`,  
 you need to reverse the first k characters for every 2k characters counting from the start of the string.  
 If there are less than k characters left, reverse all of them.  
@@ -20,7 +20,7 @@ Output: "bacdfeg"
 
   
 ### 翻譯
-#### Question
+#### Problem
 給定一個字串 `s` 和一個整數 `k`,  
 你必須從字串的一開始與每 2k 的位置開始倒轉前 k 個字元.  
 如果字串小於 k 個字元, 倒轉全部.  

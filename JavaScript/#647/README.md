@@ -1,6 +1,6 @@
 # 647. Palindromic Substrings
 
-### Question
+### Problem
 
 Given a string, your task is to count how many palindromic substrings in this string.  
 The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.  
@@ -27,7 +27,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 ### 翻譯
 
-#### Question
+#### Problem
 
 給定一個字串, 你的任務是算出這個字串裡有幾個回文子串.  
 具有不同起始位置和結束位置的子字串符會被計算成不同的子字串, 即使他們包含著相同的字元.  

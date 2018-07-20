@@ -1,6 +1,6 @@
 # 338. Counting Bits
 
-### Question
+### Problem
 
 Given a non negative integer number **num**.  
 For every numbers **i** in the range **0 ≤ i ≤ num** calculate the number of 1's in their binary representation and return them as an array.
@@ -19,7 +19,7 @@ For num = 5 you should return [0,1,1,2,1,2].
 
 ### 翻譯
 
-#### Question 問題
+#### Problem 問題
 
 給定一個非負整數 **num**.  
 對於每個在 **0 ≤ i ≤ num** 的數字 **i** ,計算它們的二進制表示裡 1 的數量, 並以陣列回傳.
