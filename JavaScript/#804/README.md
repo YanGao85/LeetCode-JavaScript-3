@@ -1,5 +1,4 @@
 # [804. Unique Morse Code Words 獨特摩斯密碼字][title]
-<!-- 參考 超連結 Source -->
 [title]:https://leetcode.com/problems/unique-morse-code-words/description/
 
 ## ❀ Origin
