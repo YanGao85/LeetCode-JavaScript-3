@@ -1,12 +1,13 @@
 # [804. Unique Morse Code Words 獨特摩斯密碼字][title]
-[title]:https://leetcode.com/problems/unique-morse-code-words/description/
+
+[title]: https://leetcode.com/problems/unique-morse-code-words/description/
 
 ## ❀ Origin
 
 ### Problem
 
 International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes,  
-as follows: "a" maps to ".-", "b" maps to "-...", "c" maps to "-.-.", and so on.
+as follows: `"a"` maps to `".-"` , `"b"` maps to `"-..."` , `"c"` maps to `"-.-."` , and so on.
 
 For convenience, the full table for the 26 letters of the English alphabet is given below:
 
@@ -76,7 +77,7 @@ There are 2 different transformations, "--...-." and "--...--.".
 
 國際摩斯密碼定義了一種標準的編碼,  
 每一個字母會對應到一連串的點點和破折號.  
-如下: "a" 代表 ".-", "b" 代表 "-...", "c" 代表 "-.-.", 以此類推.
+如下: `"a"` 代表 `".-"` , `"b"` 代表 `"-..."` , `"c"` 代表 `"-.-."` , 以此類推.
 
 為方便起見, 完整 26 個英文字母的對應表如下:
 
