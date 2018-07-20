@@ -1,25 +1,30 @@
 
-# [283. Move Zeroes 移動零][title]
+# [448. Find All Numbers Disappeared in an Array 找出所有消失在陣列裡的數字][title]
 
-[title]: https://leetcode.com/problems/move-zeroes/description/
+[title]: https://leetcode.com/problems/array-partition-i/description/
+
+> 算法二很有趣, 找缺少數的問題可以應用
 
 ## ❀ Origin
 
 ### Problem
 
-Given an array `nums`,  
-write a function to move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+Given an array of integers where 1 ≤ a[i] ≤ _n_ (_n_ = size of array),  
+some elements appear twice and others appear once.
 
-### Note
+Find all the elements of [1, *n*] inclusive that do not appear in this array.
 
-1.  You must do this **in-place** without making a copy of the array.
-2.  Minimize the total number of operations.
+Could you do it without extra space and in O(_n_) runtime?  
+You may assume the returned list does not count as extra space.
 
 ### Example
 
 ```
-Input: [0,1,0,3,12]
-Output: [1,3,12,0,0]
+Input:
+[4,3,2,7,8,2,3,1]
+
+Output:
+[5,6]
 ```
 
 ---
@@ -28,13 +33,13 @@ Output: [1,3,12,0,0]
 
 ### 問題
 
-給定一個陣列 `nums` ,  
-寫一個函數去移動所有的 `0` 到最後面, 且過程中保持非零元素的相對順序.
+給定一個整數陣列, 其中值的範圍在 1 ≤ a[i] ≤ _n_ (_n_ 等於陣列長度),  
+有些元素出現兩次, 其他則出現一次.
 
-### 注意
+找出所有包含在 [1, *n*] 裡但沒有出現在這個陣列裡的所有元素.
 
-1.  你必須在不製作一個複製陣列的情況下, 就以此操作.
-2.  最小化所有的操作數.
+你可以做到沒有額外空間並且時間複雜度為 O(_n_) 嗎?  
+你可以認為那個回傳答案的陣列不算入額外空間.
 
 ---
 
@@ -45,116 +50,72 @@ Output: [1,3,12,0,0]
 ```JavaScript
 /**
  * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @return {number[]}
  */
 
 /**
- * 移動所有的零到陣列最後面, 且不能新建多的陣列.
- *
- * 思路為遍歷每個元素,
- * 如果遇到 0 , 就忽略
- *
- * 遇到不是 0 ,
- * 就將該元素 nums[i] 的值放到 nums[position],
- * 並將 position + 1
- *
- * 以次類推,
- * nums 全部遍歷完之後,
- * 全部非零元素就會依照原本順序, 排在陣列最前面了.
- *
- * 之後再從該陣列位置的 position 為起始,
- * 將後面的值改成 0 , 即可.
- *
- * 例如：
- * position = 0, i = 0,
- * [0, 1, 0, 3, 12],
- * nums[i] = 0, 忽略
- *
- * position = 0, i = 1,
- * [0, 1, 0, 3, 12],
- * nums[i] = 1,
- * nums[position] = nums[i]
- * [1, 1, 0, 3, 12]
- * position + 1
- *
- * position = 1, i = 2,
- * [1, 1, 0, 3, 12],
- * nums[i] = 0, 忽略
- *
- * position = 1, i = 3,
- * [1, 1, 0, 3, 12],
- * nums[i] = 3,
- * nums[position] = nums[i]
- * [1, 3, 0, 3, 12]
- * position + 1
- *
- * position = 2, i = 4,
- * [1, 3, 0, 3, 12],
- * nums[i] = 12,
- * nums[position] = nums[i]
- * [1, 3, 12, 3, 12]
- * position + 1
- *
- * 最後將陣列從 position 開始後的元素都置換成 0
- *
+ * 第一種寫法
+ * nums.indexOf(i) 的能太差,
+ * 在leetcode上只落在倒數的答案,
+ * 母湯, 趕緊爬文
  */
-var moveZeroes = function(nums) {
-	let position = 0,
-		len = nums.length;
 
-	for (let i = 0; i < len; i++) {
-		if (nums[i] !== 0) {
-			nums[position] = nums[i];
-			position++;
-		}
+var findDisappearedNumbers = function(nums) {
+	var res = [];
+	for (var i = 1; i < nums.length + 1; i++) {
+		if (nums.indexOf(i) === -1) res.push(i);
 	}
-
-	for (let i = position; i < len; i++) {
-		nums[i] = 0;
-	}
-	// return nums;
+	return res;
 };
-// console.log(moveZeroes([0, 1, 0, 3, 12]));
-```
 
+```
 ### JavaScript II
 
 ```JavaScript
 /**
  * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @return {number[]}
  */
 
 /**
- * 第二種寫法,
- * 比較直覺,
- * 遇到零, 抓出來往後丟
- *
- * 從後面開始遍歷,
- * 如果 nums[i] === 0
- * 便將該位置移除 ( nums.splice(i, 1) ),
- * 最後面推一個 0 回去.
- *
- * 注意：
- * 不能從頭開始找,
- * 因為從頭的話, splice 後會刪除一個元素, 之後 push 加到最後,
- * 這樣又照著遍歷跑時, 有一個元素會被忽略
- *
- * 譬如
- * i = 0 [0, 0, 1] -> [0, 1, 0]
- * i = 1 [0, 1, 0] -> [0, 1, 0]
- *
- * 連續的第二個也是零的話就會被忽略了
- *
+ * 第二種寫法
+ * 參考 leetcode 此題第一名的寫法
+ *  依題意, 有些數字會出現兩次, 有些一次, 要找出缺少的數字
+ *  因此第一名的寫法使用正負關係搭配絕對值, 實在很強
  */
-var moveZeroes = function(nums) {
-	for (let i = nums.length; i >= 0; i--) {
-		if (nums[i] === 0) {
-			nums.splice(i, 1);
-			nums.push(0);
+var findDisappearedNumbers = function(nums) {
+	const result = [];
+	// 因為nums裡的值會是 1 ≤ a[i] ≤ nums.length 的陣列
+	// 所以不一定要整理, 直接找出該數應該在整理後的陣列的位置
+	// index = Math.abs(nums[i]) - 1
+	for (let i = 0; i < nums.length; i++) {
+		// nums[i] 取絕對值, 並 -1 ,
+		// 找出該數應該在整理後的陣列的位置
+		const index = Math.abs(nums[i]) - 1;
+
+		// console.log('index', index, 'nums[index]', nums[index]);
+		// console.log('');
+		// 使用正負搭配絕對值, 是因為迴圈跑到那數字時, 還要去找那數字的應該存在的位置,
+		// 用負數, 比較像是個畫記號的概念, 實在是太ㄎㄧㄠˋ了
+		if (nums[index] > 0) {
+			nums[index] = -nums[index];
+		}
+		// console.log('nums', nums);
+		// console.log('---');
+	}
+	/**
+	 * 當上面的程式執行完, 剩下的正數的位置便代表沒被轉換過的數, 即是缺少的數
+	 */
+	for (let i = 0; i < nums.length; i++) {
+		if (nums[i] > 0) {
+			// 因為題意是 1 ≤ a[i] ≤ nums.length ,
+			// 故找出位置後, 還要 +1 , 才是缺少的那個數字
+			result.push(i + 1);
 		}
 	}
-	// return nums;
+
+	return result;
 };
-// console.log(moveZeroes([0, 0, 1]));
+console.log(findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1, 8]));
+
 ```

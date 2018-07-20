@@ -34,8 +34,8 @@ var findDisappearedNumbers = function(nums) {
 	 */
 	for (let i = 0; i < nums.length; i++) {
 		if (nums[i] > 0) {
-            // 因為題意是 1 ≤ a[i] ≤ nums.length ,
-            // 故找出位置後, 還要 +1 , 才是缺少的那個數字
+			// 因為題意是 1 ≤ a[i] ≤ nums.length ,
+			// 故找出位置後, 還要 +1 , 才是缺少的那個數字
 			result.push(i + 1);
 		}
 	}
