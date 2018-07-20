@@ -12,9 +12,9 @@ ___
 | 3     | 771   | [Jewels and Stones][#771]                        | [JS](/JavaScript/%23771)  | Easy       | 2018-06-06 |
 | 4     | 804   | [Unique Morse Code Words][#804]                  | [JS](/JavaScript/%23804)  | Easy       | 2018-06-07 |
 | 5     | 832   | [Flipping an Image][#832]                        | [JS](/JavaScript/%23832)  | Easy       | 2018-06-08 |
-| 6     | 807   | [Max Increase to Keep City Skyline][#807]        | [JS](/JavaScript/%23807)  | Medium     | 2018-06-08 | ⭐⭐     |
+| 6     | 807   | [Max Increase to Keep City Skyline][#807]        | [JS](/JavaScript/%23807)  | Medium     | 2018-06-08 | ⭐⭐    |
 | 7     | 654   | [Maximum Binary Tree][#654]                      | [JS](/JavaScript/%23654)  | Medium     | 2018-06-15 | ⭐     |
-| 8     | 461   | [Hamming Distance][#461]                         | [JS](/JavaScript/%23461)  | Easy       | 2018-06-15 |
+| 8     | 461   | [Hamming Distance][#461]                         | [JS](/JavaScript/%23461)  | Easy       | 2018-06-15 | ⭐     |
 | 9     | 814   | [Binary Tree Pruning][#814]                      | [JS](/JavaScript/%23814)  | Medium     | 2018-06-19 | ⭐     |
 | 10    | 617   | [Merge Two Binary Trees][#617]                   | [JS](/JavaScript/%23617)  | Easy       | 2018-06-19 | ⭐     |
 | 11    | 797   | [All Paths From Source to Target][#797]          | [JS](/JavaScript/%23797)  | Medium     | 2018-06-19 | ⭐⭐    |

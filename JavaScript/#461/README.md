@@ -1,14 +1,22 @@
-# 461. Hamming Distance
 
-### Problem 
-The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.  
+# [461. Hamming Distance 漢明距離][title]
 
-Given two integers x and y, calculate the Hamming distance.  
+[title]: https://leetcode.com/problems/hamming-distance/description/
 
-### Note  
- - 0 ≤ x, y < 2<sup>31</sup>.
+## ❀ Origin
+
+### Problem
+
+The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.
+
+Given two integers `x` and `y`, calculate the Hamming distance.
+
+### Note
+
+- 0 ≤ x, y < 2<sup>31</sup>.
 
 ### Example
+
 ```
 Input: x = 1, y = 4
 
@@ -22,19 +30,86 @@ Explanation:
 The above arrows point to positions where the corresponding bits are different.
 ```
 
+---
 
-  
-### 翻譯
-#### Problem
-兩個數的漢明距離是相對應的 bits 位置有所不同的數量.
-#### Note 
- - 0 ≤ x, y < 2<sup>31</sup>. 
+## ❀ 翻譯
 
-### 備註
-#### 程式怎麼跑 不記起來會忘記
- 1. 用 互斥或閘(XOR) 算出兩數的差異數的十進位值
- 2. 用 while(){} 算出該數的二進位制有幾個 1 
+### 問題
 
+兩個數的漢明距離是相對應的 bits 位置有所不同的數量.  
+給定兩個數 `x` 和 `y`, 計算出漢明距離.
+
+### 注意
+
+- 0 ≤ x, y < 2<sup>31</sup>.
+
+***
+
+## ❀ Solution
+### Idea
+1.  用 互斥或閘(XOR) 算出兩數的差異數的十進位值
+2.  用 while(){} 算出該數的二進位制有幾個 1
+
+### JavaScript
+```JavaScript
+/**
+ * @param {number} x
+ * @param {number} y
+ * @return {number}
+ */
+
+/**
+ * 題目為計算兩數間的 Hamming distance ,
+ * 漢明距離是說把欲比對的數字轉成都二進制,
+ * 在依序相同位置比對是否相異, 總數即為漢明距離.
+ * exp:
+ *  5   (0 1 0 1)
+ * 10   (1 0 1 0)
+ *       ↑ ↑ ↑ ↑
+ * 差異數：4
+ */
+/**
+ * 因此先用 ^ = 互斥或閘(XOR) 算出兩數的差異數的十進位值
+ * exp:
+ * 5 ^ 10 = 15
+ *
+ *  5   (0 1 0 1)
+ * 10   (1 0 1 0)
+ *       ↑ ↑ ↑ ↑
+ * --------------
+ * 15   (1 1 1 1)
+ *
+ *
+ * 在對其值跑 while(){} ,
+ *
+ */
+var hammingDistance = function(x, y) {
+	// 紀錄差異總數用
+	var count = 0;
+
+	// 用 XOR , 算出兩數的差異數的十進位值 n
+	var n = x ^ y;
+
+	// 以其值執行 while(){}  如果 n = 0 , 直接 false 跳出迴圈
+	while (n) {
+		// 進來一次的等於有一個 1 , count 加一
+		++count;
+
+		// 如果進來一次了, n 要換成別的數字
+		// n 與 (n - 1) 做及閘 AND ,
+		// 因為每次的 -1 在二進制數字都會減少一個 1 位元 bit
+		// 數值可能會有兩種狀況, 最右邊 bit 是 1 代表奇數， 0 代表偶數
+		// 就像 [xxxx10 … 0] - 1 = [xxxx01 … 1]
+		// AND 只有都為 1 才會為 1, 所以每運算一次相乘，就會少掉一個 1, count 便加一
+
+		n = n & (n - 1);
+	}
+	return count;
+};
+
+```
+
+### Execution
 ```
 5 ^ 10 = 15
 
@@ -46,7 +121,7 @@ The above arrows point to positions where the corresponding bits are different.
 
 
 =================
-1. 
+1.
 n = 15
 count = 1
 
@@ -93,6 +168,4 @@ count = 4
 n = 0
 count = 4
 回傳 count
-
 ```
-
